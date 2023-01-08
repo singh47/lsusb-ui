@@ -10,16 +10,22 @@
 </head>
 
 <body bgcolor="#FFFFFF">
-  <h1 align="center"> <img height="25px" width="auto" src="./usb-icon.svg" alt="usb-icon"> USB Devices</h1>
+  <h1 align="center"> <img height="25px" width="auto" alt="usb-icon"> USB Devices</h1>
   
+  <div>
+    <button class="flat-button" id="refresh"> Refresh</button>
+    <button class="flat-button" id="vendors"> Vendors</button>
+    <button class="flat-button" id="treeView"> Tree View</button>
+  </div>
+
   <strong>
-    <pre>List of USB Devices  <button id="refresh"> Refresh</button></pre>
+    <pre>List of USB Devices </pre>
   </strong>
   <pre id="terminal"></pre>
-  <script src="./renderer.js"></script>
-</body>
-     <button id="refresh"> Refresh</button>
-     <button id="vendors"> Vendors</button>
-     <button id="treeView"> Tree View</button>
+  
 
+
+     <script src="./renderer.js"></script>
+
+  </body>
 </html>
