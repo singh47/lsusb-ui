@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>USB Devices</title>
-  </head>
-  <body bgcolor="#808080">
-    <h1 align="center">USB Devices</h1>
-     <strong><pre>List of USB Devices</pre><span id="chrome"></span></strong>
-    
-     <pre id="terminal">
 
-     </pre>
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>USB Devices</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
 
-     <button id="refresh"> Refresh</button>
+<body bgcolor="#FFFFFF">
+  <h1 align="center"> <img height="25px" width="auto" src="./usb-icon.svg" alt="usb-icon"> USB Devices</h1>
+  
+  <strong>
+    <pre>List of USB Devices  <button id="refresh"> Refresh</button></pre>
+  </strong>
+  <pre id="terminal"></pre>
+  <script src="./renderer.js"></script>
+</body>
 
-     <script src="./renderer.js"></script>
-  </body>
 </html>
