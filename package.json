@@ -19,7 +19,6 @@
     "electron": "^22.0.0"
   },
   "dependencies": {
-    "electron-mac-permissions": "^2.2.2",
     "electron-squirrel-startup": "^1.0.0"
   }
 }
