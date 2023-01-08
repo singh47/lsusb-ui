@@ -3,7 +3,7 @@ const { stdout, stderr, stdin } = require('process');
 
 // on load function
 async function listUsb() {
-    exec('lsusb -v', (error, stdout, stderr) => {
+    exec('./lsusb/lsusb -v', (error, stdout, stderr) => {
     if (error){
         console.error("error executing command")
         return
@@ -14,7 +14,7 @@ async function listUsb() {
 
 // on refresh
 async function refresh() {
-    exec('lsusb -v', (error, stdout, stderr) => {
+    exec('./lsusb/lsusb -v', (error, stdout, stderr) => {
     if (error){
         console.error("error executing command")
         return
