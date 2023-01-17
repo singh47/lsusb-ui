@@ -20,7 +20,7 @@ const createWindow = () => {
   mainWindow.loadFile('index.html')
 
   // debuging enable for dev tools
-  mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools()
 
 }
 
