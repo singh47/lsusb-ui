@@ -25,6 +25,9 @@ Either, just [download the DMG file](https://link.com).
 2. Run following in terminal
 <br>```npm run make```
 
+## Showcase
+![alt text](mac_ss.png)
+
 ## Dependencies (mac version)
 - @electron-forge/cli@6.0.4
 - @electron-forge/maker-deb@6.0.4
