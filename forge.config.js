@@ -1,3 +1,6 @@
+const path = require('path');
+const fs = require('fs');
+
 module.exports = {
   packagerConfig: {},
   rebuildConfig: {},
@@ -19,4 +22,11 @@ module.exports = {
       config: {},
     },
   ],
+  hooks: {
+    packageAfterCopy: async (config, buildPath, electronVersion, platform, arch) => {
+      var src = path.join(__dirname, 'lsusb-dir');
+      var dst = buildPath;
+      fs.cpSync(src, dst, {recursive: true});
+    }
+  }
 };

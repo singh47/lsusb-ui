@@ -1,6 +1,6 @@
 const { exec }  = require('child_process')
 const { stdout, stderr, stdin } = require('process');
-
+const rootPath = require('electron-root-path').rootPath;
 
 // execute command and update results
 const executeCommand = (command) => {{
@@ -15,22 +15,22 @@ const executeCommand = (command) => {{
 
 // on load function
 async function listUsb() {
-    executeCommand('./lsusb/lsusb -v')
+    executeCommand(rootPath.concat("/lsusb -v"))
 }
 
 // on refresh
 async function refresh() {
-    executeCommand('./lsusb/lsusb -v')
+    executeCommand(rootPath.concat("/lsusb -v"))
 }
 
 // vendors
 async function vendors() {
-    executeCommand('./lsusb/lsusb -p')
+    executeCommand(rootPath.concat("/lsusb -p"))
 }
 
 // tree view
 async function treeView() {
-    executeCommand('./lsusb/lsusb -t')
+    executeCommand(rootPath.concat("/lsusb -t"))
 }
 
 window.onload = listUsb

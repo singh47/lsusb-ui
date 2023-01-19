@@ -19,6 +19,7 @@
     "electron": "^22.0.0"
   },
   "dependencies": {
+    "electron-root-path": "^1.1.0",
     "electron-squirrel-startup": "^1.0.0"
   }
 }
