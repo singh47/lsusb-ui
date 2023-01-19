@@ -26,14 +26,14 @@ Either, just [download the DMG file](https://link.com).
 <br>```npm run make```
 
 ## Dependencies (mac version)
-├── @electron-forge/cli@6.0.4
-├── @electron-forge/maker-deb@6.0.4
-├── @electron-forge/maker-rpm@6.0.4
-├── @electron-forge/maker-squirrel@6.0.4
-├── @electron-forge/maker-zip@6.0.4
-├── electron-root-path@1.1.0
-├── electron-squirrel-startup@1.0.0
-└── electron@22.0.3
+- @electron-forge/cli@6.0.4
+- @electron-forge/maker-deb@6.0.4
+- @electron-forge/maker-rpm@6.0.4
+- @electron-forge/maker-squirrel@6.0.4
+- @electron-forge/maker-zip@6.0.4
+- electron-root-path@1.1.0
+- electron-squirrel-startup@1.0.0
+- electron@22.0.3
 
 **Members:**
 1. [Jagroop Singh](https://github.com/r97draco)
