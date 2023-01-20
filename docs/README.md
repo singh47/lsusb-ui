@@ -6,11 +6,11 @@
 <br> 
 <h2>Functionality :</h2> List the USB Devices attached to the macbook with their manufacturer and more information.
 
-**Webpage:** [linkname](link.com)
-**Mac's DMG:** [Download here](link.com)
+**Webpage:** [lsusb-ui](https://singh47.github.io/lsusb-ui/)
+**Mac's DMG:** [Download here](https://drive.google.com/file/d/18FWyW3jl-t0XWtuNrTAGaEdgARvg3d27/view?usp=sharing)
 
 ## How to start
-Either, just [download the DMG file](https://link.com).
+Either, just [download the DMG file](https://drive.google.com/file/d/18FWyW3jl-t0XWtuNrTAGaEdgARvg3d27/view?usp=sharing).
 <br>
 1. Clone or download the project using link: https://github.com/singh47/lsusb-ui.git
 2. Run following command to install node modules
