@@ -26,7 +26,7 @@ Either, just [download the DMG file](https://drive.google.com/file/d/18FWyW3jl-t
 <br>```npm run make```
 
 ## Showcase
-![alt text](mac_ss.png)
+![alt text](../mac_ss.png)
 
 ## Dependencies (mac version)
 - @electron-forge/cli@6.0.4
